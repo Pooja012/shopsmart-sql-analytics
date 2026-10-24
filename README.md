@@ -26,3 +26,5 @@ Revenue figures exclude cancelled orders.
 - **Data quality:** all integrity checks pass, and every product has at least one completed sale.
 - **Customers:** RFM segmentation scores each customer 1 to 5 on recency, frequency and monetary value. Customer 44 is the top Champion (555).
 - **Caveat:** the dataset is generated, so patterns such as Grocery's lead come from the seed formulas, not from real behaviour.
+- **Segments:** 108 of 120 customers have at least one completed order and are scored. The other 12 only have cancelled orders. Segment sizes: Loyal 24, Lost 22, At Risk 22, Champions 18, New or Promising 13, Needs Attention 9.
+- **Segment spend is similar** (about 3,500 to 4,000 average per customer). Segments are driven by recency and frequency only, and the synthetic data gives every customer 4 or 5 orders, so spend barely differs between them.
